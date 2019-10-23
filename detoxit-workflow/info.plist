@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.vandesign.detoxit</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>0F0714D2-B678-4B6D-8A3F-1AB18E25E9D2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E6A65ADB-AB6B-410D-972D-A29FE8ED102F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>441F5373-8EA2-4CBF-AF9F-E91D15206E78</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECB4D86D-ACF5-44F7-A3EA-0A002ED92129</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>77575CF3-A105-4121-9572-DB4AEB210FC4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BDFE34FC-3E3F-4F7B-B7AE-8EB92282284B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>00944A61-0A82-4C0D-B358-04886E2B9188</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AC849409-D01F-468B-862D-D980E753F243</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA4D9409-ABB1-4EE7-B62E-0DFBDB90E785</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DA4D9409-ABB1-4EE7-B62E-0DFBDB90E785</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>77575CF3-A105-4121-9572-DB4AEB210FC4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E6A65ADB-AB6B-410D-972D-A29FE8ED102F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>441F5373-8EA2-4CBF-AF9F-E91D15206E78</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>vandesign &amp; tplk</string>
+	<key>description</key>
+	<string>Типограф для Alfred 4+</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Detoxit</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>#!/bin/sh
+
+TYPOGRAF_CONFIG_PATH=detoxit-config.json
+TYPOGRAF_API_ENDPOINT='https://typograf.now.sh/api/process'
+
+echo -n "{query}" \
+  | python -c "import json, sys; print json.dumps({'text':sys.stdin.read(), 'options': json.load(open(sys.argv[1], 'r'))})" $TYPOGRAF_CONFIG_PATH \
+  | curl -s -H 'Content-Type: application/json' -d @- "$TYPOGRAF_API_ENDPOINT"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>DA4D9409-ABB1-4EE7-B62E-0DFBDB90E785</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>soundname</key>
+				<string>clean.m4a</string>
+				<key>systemsound</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.playsound</string>
+			<key>uid</key>
+			<string>BDFE34FC-3E3F-4F7B-B7AE-8EB92282284B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string></string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>77575CF3-A105-4121-9572-DB4AEB210FC4</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>2</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>65</integer>
+				<key>hotmod</key>
+				<integer>3276800</integer>
+				<key>hotstring</key>
+				<string>.</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>AC849409-D01F-468B-862D-D980E753F243</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Детоксикация прошла успешно.</string>
+				<key>title</key>
+				<string>Detoxit</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>00944A61-0A82-4C0D-B358-04886E2B9188</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>detoxitsetup</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>echo -n | /usr/bin/python detoxit-setup.py</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>test.sh</string>
+				<key>subtext</key>
+				<string>Настройки</string>
+				<key>title</key>
+				<string>Detoxit</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>0F0714D2-B678-4B6D-8A3F-1AB18E25E9D2</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>from io import open
+import json
+
+disableRule = []
+enableRule = []
+
+with open('detoxit-setup.json', encoding='utf-8') as readRules:
+    rawRules = json.load(readRules)
+    for i in rawRules[0:]:
+        if i['isEnabled'] is True:
+            enableRule.append(i['id'])
+        else:
+            disableRule.append(i['id'])
+
+detoxitOptions = {"disableRule": disableRule, "enableRule": enableRule}
+
+with open('detoxit-config.json', 'wb') as OutJson:
+    json.dump(detoxitOptions, OutJson, sort_keys=False, indent=4, ensure_ascii=True, encoding='utf-8')</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>441F5373-8EA2-4CBF-AF9F-E91D15206E78</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Правило изменено.</string>
+				<key>title</key>
+				<string>Detoxit</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>ECB4D86D-ACF5-44F7-A3EA-0A002ED92129</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>from io import open
+import json
+import sys
+
+changeRule = '{query}'
+sys.stdout.write(changeRule)
+with open('detoxit-setup.json', encoding='utf-8') as readRules:
+    rawRules = json.load(readRules)
+    for i in rawRules[0:]:
+        if i['id'] == changeRule:
+            i['isEnabled'] = not i['isEnabled']
+
+with open('detoxit-setup.json', 'wb') as OutJson:
+    json.dump(rawRules, OutJson, sort_keys=False, indent=4, ensure_ascii=True, encoding='utf-8')</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E6A65ADB-AB6B-410D-972D-A29FE8ED102F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>00944A61-0A82-4C0D-B358-04886E2B9188</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>xpos</key>
+			<integer>790</integer>
+			<key>ypos</key>
+			<integer>230</integer>
+		</dict>
+		<key>0F0714D2-B678-4B6D-8A3F-1AB18E25E9D2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>80</integer>
+			<key>ypos</key>
+			<integer>365</integer>
+		</dict>
+		<key>441F5373-8EA2-4CBF-AF9F-E91D15206E78</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>xpos</key>
+			<integer>540</integer>
+			<key>ypos</key>
+			<integer>365</integer>
+		</dict>
+		<key>77575CF3-A105-4121-9572-DB4AEB210FC4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>535</integer>
+			<key>ypos</key>
+			<integer>35</integer>
+		</dict>
+		<key>AC849409-D01F-468B-862D-D980E753F243</key>
+		<dict>
+			<key>note</key>
+			<string>*
+Настрой свой хоткей.
+*</string>
+			<key>xpos</key>
+			<integer>75</integer>
+			<key>ypos</key>
+			<integer>35</integer>
+		</dict>
+		<key>BDFE34FC-3E3F-4F7B-B7AE-8EB92282284B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>*
+Удали, если любишь тишину.
+*</string>
+			<key>xpos</key>
+			<integer>790</integer>
+			<key>ypos</key>
+			<integer>35</integer>
+		</dict>
+		<key>DA4D9409-ABB1-4EE7-B62E-0DFBDB90E785</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>xpos</key>
+			<integer>295</integer>
+			<key>ypos</key>
+			<integer>35</integer>
+		</dict>
+		<key>E6A65ADB-AB6B-410D-972D-A29FE8ED102F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>365</integer>
+		</dict>
+		<key>ECB4D86D-ACF5-44F7-A3EA-0A002ED92129</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>xpos</key>
+			<integer>790</integer>
+			<key>ypos</key>
+			<integer>365</integer>
+		</dict>
+	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>0.0.1</string>
+	<key>webaddress</key>
+	<string>https://github.com/vandesign/alfred-detoxit</string>
+</dict>
+</plist>

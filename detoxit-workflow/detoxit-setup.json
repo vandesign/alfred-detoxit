@@ -1,0 +1,487 @@
+[
+    {
+        "id": "common/html/e-mail",
+        "name": "Расстановка ссылок для эл. почты",
+        "isEnabled": false
+    },
+    {
+        "id": "common/html/escape",
+        "name": "Экранирование HTML",
+        "isEnabled": false
+    },
+    {
+        "id": "common/html/nbr",
+        "name": "Замена перевода строки на <br/>",
+        "isEnabled": false
+    },
+    {
+        "id": "common/html/p",
+        "name": "Расстановка абзацев",
+        "isEnabled": false
+    },
+    {
+        "id": "common/html/processingAttrs",
+        "name": "Типографирование HTML-атрибутов",
+        "isEnabled": false
+    },
+    {
+        "id": "common/html/quot",
+        "name": "&⁠quot; → \"",
+        "isEnabled": true
+    },
+    {
+        "id": "common/html/stripTags",
+        "name": "Удаление HTML-тегов",
+        "isEnabled": false
+    },
+    {
+        "id": "common/html/url",
+        "name": "Расстановка ссылок",
+        "isEnabled": false
+    },
+    {
+        "id": "common/nbsp/afterNumber",
+        "name": "Нераз. пробел между числом и словом",
+        "isEnabled": false
+    },
+    {
+        "id": "common/nbsp/afterParagraphMark",
+        "name": "Нераз. пробел после ¶",
+        "isEnabled": true
+    },
+    {
+        "id": "common/nbsp/afterSectionMark",
+        "name": "Нераз. узкий пробел после §",
+        "isEnabled": true
+    },
+    {
+        "id": "common/nbsp/afterShortWord",
+        "name": "Нераз. пробел после короткого слова",
+        "isEnabled": true
+    },
+    {
+        "id": "common/nbsp/beforeShortLastNumber",
+        "name": "Нераз. пробел перед числом (не более 2 цифр) в конце предложения",
+        "isEnabled": true
+    },
+    {
+        "id": "common/nbsp/beforeShortLastWord",
+        "name": "Нераз. пробел перед последним коротким словом в предложении",
+        "isEnabled": true
+    },
+    {
+        "id": "common/nbsp/dpi",
+        "name": "Нераз. пробел перед lpi и dpi",
+        "isEnabled": true
+    },
+    {
+        "id": "common/nbsp/nowrap",
+        "name": "Заменять нераз. пробел на обычный пробел в тегах nowrap и nobr",
+        "isEnabled": true
+    },
+    {
+        "id": "common/nbsp/replaceNbsp",
+        "name": "Замена неразрывного пробела на обычный перед типографированием",
+        "isEnabled": false
+    },
+    {
+        "id": "common/number/fraction",
+        "name": "1/2 → ½, 1/4 → ¼, 3/4 → ¾",
+        "isEnabled": true
+    },
+    {
+        "id": "common/number/mathSigns",
+        "name": "!= → ≠, <= → ≤, >= → ≥, ~= → ≅, +- → ±",
+        "isEnabled": true
+    },
+    {
+        "id": "common/number/times",
+        "name": "x → × (10 x 5 → 10×5)",
+        "isEnabled": true
+    },
+    {
+        "id": "common/other/delBOM",
+        "name": "Удаление символа BOM (Byte Order Mark)",
+        "isEnabled": true
+    },
+    {
+        "id": "common/other/repeatWord",
+        "name": "Удаление повтора слова",
+        "isEnabled": false
+    },
+    {
+        "id": "common/punctuation/apostrophe",
+        "name": "Расстановка правильного апострофа",
+        "isEnabled": true
+    },
+    {
+        "id": "common/punctuation/delDoublePunctuation",
+        "name": "Удаление двойной пунктуации",
+        "isEnabled": true
+    },
+    {
+        "id": "common/punctuation/hellip",
+        "name": "Замена трёх точек на многоточие",
+        "isEnabled": true
+    },
+    {
+        "id": "common/punctuation/quote",
+        "name": "Расстановка кавычек правильного вида",
+        "isEnabled": true
+    },
+    {
+        "id": "common/punctuation/quoteLink",
+        "name": "Вынос кавычек за пределы ссылки",
+        "isEnabled": true
+    },
+    {
+        "id": "common/space/afterPunctuation",
+        "name": "Пробел после знаков пунктуации",
+        "isEnabled": true
+    },
+    {
+        "id": "common/space/beforeBracket",
+        "name": "Пробел перед открывающей скобкой",
+        "isEnabled": true
+    },
+    {
+        "id": "common/space/bracket",
+        "name": "Удаление лишних пробелов после открывающей и перед закрывающей скобкой",
+        "isEnabled": true
+    },
+    {
+        "id": "common/space/delBeforePercent",
+        "name": "Удаление пробела перед %, ‰ и ‱",
+        "isEnabled": true
+    },
+    {
+        "id": "common/space/delBeforePunctuation",
+        "name": "Удаление пробелов перед знаками пунктуации",
+        "isEnabled": true
+    },
+    {
+        "id": "common/space/delLeadingBlanks",
+        "name": "Удаление пробелов в начале строки",
+        "isEnabled": false
+    },
+    {
+        "id": "common/space/delRepeatN",
+        "name": "Удаление повторяющихся переносов строки",
+        "isEnabled": true
+    },
+    {
+        "id": "common/space/delRepeatSpace",
+        "name": "Удаление повторяющихся пробелов между символами",
+        "isEnabled": true
+    },
+    {
+        "id": "common/space/delTrailingBlanks",
+        "name": "Удаление пробелов в конце строки",
+        "isEnabled": true
+    },
+    {
+        "id": "common/space/replaceTab",
+        "name": "Замена таба на 4 пробела",
+        "isEnabled": true
+    },
+    {
+        "id": "common/space/squareBracket",
+        "name": "Удаление лишних пробелов после открывающей и перед закрывающей квадратной скобкой",
+        "isEnabled": true
+    },
+    {
+        "id": "common/space/trimLeft",
+        "name": "Удаление пробелов и переносов строк в начале текста",
+        "isEnabled": true
+    },
+    {
+        "id": "common/space/trimRight",
+        "name": "Удаление пробелов и переносов строк в конце текста",
+        "isEnabled": true
+    },
+    {
+        "id": "common/symbols/arrow",
+        "name": "-> → →, <- → ←",
+        "isEnabled": true
+    },
+    {
+        "id": "common/symbols/cf",
+        "name": "Добавление ° к C и F",
+        "isEnabled": true
+    },
+    {
+        "id": "common/symbols/copy",
+        "name": "(c) → ©, (tm) → ™, (r) → ®",
+        "isEnabled": true
+    },
+    {
+        "id": "en-US/dash/main",
+        "name": "Замена дефиса на длинное тире",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/dash/centuries",
+        "name": "Замена дефиса на тире в веках",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/dash/daysMonth",
+        "name": "Тире между днями одного месяца",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/dash/de",
+        "name": "Дефис перед «де»",
+        "isEnabled": false
+    },
+    {
+        "id": "ru/dash/decade",
+        "name": "Тире в десятилетиях, 80—90-е гг.",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/dash/directSpeech",
+        "name": "Тире в прямой речи",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/dash/izpod",
+        "name": "Дефис между «из-под»",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/dash/izza",
+        "name": "Дефис между «из-за»",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/dash/ka",
+        "name": "Дефис перед «ка» и «кась»",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/dash/koe",
+        "name": "Дефис после «кое» и «кой»",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/dash/main",
+        "name": "Замена дефиса на тире",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/dash/month",
+        "name": "Тире между месяцами",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/dash/surname",
+        "name": "Сокращения с помощью тире",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/dash/taki",
+        "name": "Дефис между «верно-таки» и т. д.",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/dash/time",
+        "name": "Тире в интервалах времени",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/dash/to",
+        "name": "Дефис перед «то», «либо», «нибудь»",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/dash/weekday",
+        "name": "Тире между днями недели",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/dash/years",
+        "name": "Замена дефиса на тире в годах",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/date/fromISO",
+        "name": "Преобразование дат YYYY-MM-DD к виду DD.MM.YYYY",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/date/weekday",
+        "name": "2 Мая, Понедельник → 2 мая, понедельник",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/money/currency",
+        "name": "Символ валюты ($, €, ¥, Ұ, £ и ₤) после числа, $100 → 100 $",
+        "isEnabled": false
+    },
+    {
+        "id": "ru/money/ruble",
+        "name": "1 руб. → 1 ₽",
+        "isEnabled": false
+    },
+    {
+        "id": "ru/nbsp/abbr",
+        "name": "Нераз. пробел в сокращениях, например, в «т. д.»",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/nbsp/addr",
+        "name": "Расстановка нераз. пробела после «г.», «обл.», «ул.», «пр.», «кв.» и др.",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/nbsp/afterNumberSign",
+        "name": "Нераз. узкий пробел после №",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/nbsp/beforeParticle",
+        "name": "Нераз. пробел перед «ли», «ль», «же», «бы», «б»",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/nbsp/centuries",
+        "name": "Удаление пробелов и лишних точек в «вв.»",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/nbsp/dayMonth",
+        "name": "Нераз. пробел между числом и месяцем",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/nbsp/groupNumbers",
+        "name": "Замена пробела на нераз. узкий пробел в группах чисел",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/nbsp/initials",
+        "name": "Привязка инициалов к фамилии",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/nbsp/m",
+        "name": "м2 → м², м3 → м³ и нераз. пробел",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/nbsp/mln",
+        "name": "Неразр. пробел между числом и «тыс.», «млн», «млрд» и «трлн»",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/nbsp/ooo",
+        "name": "Нераз. пробел после OOO, ОАО, ЗАО, НИИ и ПБОЮЛ",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/nbsp/page",
+        "name": "Нераз. пробел после «стр.», «гл.», «рис.», «илл.»",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/nbsp/ps",
+        "name": "Нераз. пробел в P. S. и P. P. S.",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/nbsp/rubleKopek",
+        "name": "Нераз. пробел перед «руб.» и «коп.»",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/nbsp/see",
+        "name": "Нераз. пробел после сокращений «см.» и «им.»",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/nbsp/year",
+        "name": "Нераз. пробел после XXXX г. (2012 г.)",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/nbsp/years",
+        "name": "г.г. → гг. и нераз. пробел",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/number/comma",
+        "name": "Замена точки на запятую в числах",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/number/ordinals",
+        "name": "N-ый, -ой, -ая, -ое, -ые, -ым, -ом, -ых → N-й, -я, -е, -м, -х (25-й)",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/optalign/bracket",
+        "name": "для открывающей скобки",
+        "isEnabled": false
+    },
+    {
+        "id": "ru/optalign/comma",
+        "name": "для запятой",
+        "isEnabled": false
+    },
+    {
+        "id": "ru/optalign/quote",
+        "name": "для открывающей кавычки",
+        "isEnabled": false
+    },
+    {
+        "id": "ru/other/accent",
+        "name": "Замена заглавной буквы на строчную с добавлением ударения",
+        "isEnabled": false
+    },
+    {
+        "id": "ru/other/phone-number",
+        "name": "Форматирование телефонных номеров",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/punctuation/ano",
+        "name": "Расстановка запятых перед «а» и «но»",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/punctuation/exclamation",
+        "name": "!! → !",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/punctuation/exclamationQuestion",
+        "name": "!? → ?!",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/punctuation/hellipQuestion",
+        "name": "«?…» → «?..», «!…» → «!..», «…,» → «…»",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/space/afterHellip",
+        "name": "Пробел после «...», «!..» и «?..»",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/space/year",
+        "name": "Пробел между числом и словом «год»",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/symbols/NN",
+        "name": "№№ → №",
+        "isEnabled": true
+    },
+    {
+        "id": "ru/typo/switchingKeyboardLayout",
+        "name": "Замена латинских букв на русские. Опечатки, возникающие при переключении клавиатурной раскладки",
+        "isEnabled": true
+    }
+]
