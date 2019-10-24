@@ -1,6 +1,6 @@
 # Detoxit! <img src="https://user-images.githubusercontent.com/5607130/67505414-decb4680-f693-11e9-8097-958ce6e56363.png" width="64">
 
-Типограф для [Alfred](https://www.alfredapp.com) c [Powerpack](https://buy.alfredapp.com/) на базе [Типографа на JavaScript](https://github.com/typograf/typograf)
+Workflow для [Alfred](https://www.alfredapp.com) c [Powerpack](https://buy.alfredapp.com/) на базе [Типографа на JavaScript](https://github.com/typograf/typograf)
 
 ## Привет!
 Detoxit! помогает одним движением избавить текст от большинства «болячек» — неправильных кавычек, дефисов вместо тире, двойных пробелов и множественных переводов строки (всего [около 100 правил](https://github.com/typograf/typograf/blob/dev/docs/RULES.ru.md)).
