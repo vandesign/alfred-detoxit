@@ -13,7 +13,7 @@ Detoxit! помогает одним движением избавить тек�
 <br />
 
 ## Установка
-- [Скачать Detoxit!](https://github.com/vandesign/alfred-detoxit/releases/download/v0.0.1/Detoxit.alfredworkflow)
+- **[Скачать Detoxit!](https://github.com/vandesign/alfred-detoxit/releases/download/v0.0.1/Detoxit.alfredworkflow)**
 
 - Импортировать двойным кликом Detoxit.alfredworkflow в Alfred.
 
