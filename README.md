@@ -1,5 +1,6 @@
-# Detoxit! <img src="https://user-images.githubusercontent.com/5607130/67505414-decb4680-f693-11e9-8097-958ce6e56363.png" width="64">
+<img align="right" width="128" src="https://user-images.githubusercontent.com/5607130/67505414-decb4680-f693-11e9-8097-958ce6e56363.png">
 
+# Detoxit!
 Workflow для [Alfred](https://www.alfredapp.com) c [Powerpack](https://buy.alfredapp.com/) на базе [Типографа на JavaScript](https://github.com/typograf/typograf)
 
 ## Привет!
