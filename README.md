@@ -1,4 +1,4 @@
-<img align="right" width="128" src="https://user-images.githubusercontent.com/5607130/67505414-decb4680-f693-11e9-8097-958ce6e56363.png">
+<img align="right" width="128" src="./img/icon.png">
 
 # Detoxit!
 Workflow для [Alfred](https://www.alfredapp.com) c [Powerpack](https://buy.alfredapp.com/) на базе [Типографа на JavaScript](https://github.com/typograf/typograf)
@@ -8,12 +8,12 @@ Detoxit! помогает одним движением избавить тек�
 <br />
 <br />
 
-![text-detox](https://user-images.githubusercontent.com/5607130/67506854-80ec2e00-f696-11e9-89e0-2d4b7d3afb04.png)
+![text-detox](./img/text-detox.png)
 <br />
 <br />
 
 ## Установка
-- [Скачать Detoxit!](https://github.com/vandesign/alfred-detoxit/raw/master/Detoxit.alfredworkflow)
+- [Скачать Detoxit!](https://github.com/vandesign/alfred-detoxit/releases/download/v0.0.1/Detoxit.alfredworkflow)
 
 - Импортировать двойным кликом Detoxit.alfredworkflow в Alfred.
 
@@ -21,7 +21,7 @@ Detoxit! помогает одним движением избавить тек�
 <br />
 <br />
 
-![hotkey](https://user-images.githubusercontent.com/5607130/67504668-7d56a800-f692-11e9-9c2c-0de1682b6344.png)
+![hotkey](./img/hotkey.png)
 <br />
 <br />
 
@@ -29,11 +29,11 @@ Detoxit! помогает одним движением избавить тек�
 
 - Можно включать/выключать отдельные правила обработки текста. Начните набирать в Alfred `detoxitsetup`, нажмите `Return`.
 
-![detoxit-wrk](https://user-images.githubusercontent.com/5607130/67496002-6a3cdb80-f684-11e9-91a4-e73ea7ce8b57.png)
+![detoxit-workflow](./img/detoxit-workflow.png)
 
 - Выберите правило и включите или выключите его.
 
-![detoxit-setup](https://user-images.githubusercontent.com/5607130/67496028-74f77080-f684-11e9-8cb0-4ce78de8bfe8.png)
+![detoxit-setup](./img/detoxit-setup.png)
 
 ## Родители
 Detoxit! работает на базе [Типограф на JavaScript](https://github.com/typograf/typograf).
