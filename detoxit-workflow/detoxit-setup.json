@@ -1,487 +1,487 @@
 [
     {
-        "id": "common/html/e-mail",
-        "name": "Расстановка ссылок для эл. почты",
-        "isEnabled": false
-    },
-    {
-        "id": "common/html/escape",
-        "name": "Экранирование HTML",
-        "isEnabled": false
-    },
-    {
-        "id": "common/html/nbr",
-        "name": "Замена перевода строки на <br/>",
-        "isEnabled": false
-    },
-    {
-        "id": "common/html/p",
-        "name": "Расстановка абзацев",
-        "isEnabled": false
-    },
-    {
-        "id": "common/html/processingAttrs",
-        "name": "Типографирование HTML-атрибутов",
-        "isEnabled": false
-    },
-    {
-        "id": "common/html/quot",
-        "name": "&⁠quot; → \"",
-        "isEnabled": true
-    },
-    {
-        "id": "common/html/stripTags",
-        "name": "Удаление HTML-тегов",
-        "isEnabled": false
-    },
-    {
-        "id": "common/html/url",
-        "name": "Расстановка ссылок",
-        "isEnabled": false
-    },
-    {
-        "id": "common/nbsp/afterNumber",
-        "name": "Нераз. пробел между числом и словом",
-        "isEnabled": false
-    },
-    {
-        "id": "common/nbsp/afterParagraphMark",
-        "name": "Нераз. пробел после ¶",
-        "isEnabled": true
-    },
-    {
-        "id": "common/nbsp/afterSectionMark",
-        "name": "Нераз. узкий пробел после §",
-        "isEnabled": true
-    },
-    {
-        "id": "common/nbsp/afterShortWord",
-        "name": "Нераз. пробел после короткого слова",
-        "isEnabled": true
-    },
-    {
-        "id": "common/nbsp/beforeShortLastNumber",
-        "name": "Нераз. пробел перед числом (не более 2 цифр) в конце предложения",
-        "isEnabled": true
-    },
-    {
-        "id": "common/nbsp/beforeShortLastWord",
-        "name": "Нераз. пробел перед последним коротким словом в предложении",
-        "isEnabled": true
-    },
-    {
-        "id": "common/nbsp/dpi",
-        "name": "Нераз. пробел перед lpi и dpi",
-        "isEnabled": true
-    },
-    {
-        "id": "common/nbsp/nowrap",
-        "name": "Заменять нераз. пробел на обычный пробел в тегах nowrap и nobr",
-        "isEnabled": true
-    },
-    {
-        "id": "common/nbsp/replaceNbsp",
-        "name": "Замена неразрывного пробела на обычный перед типографированием",
-        "isEnabled": false
-    },
-    {
-        "id": "common/number/fraction",
-        "name": "1/2 → ½, 1/4 → ¼, 3/4 → ¾",
-        "isEnabled": true
-    },
-    {
-        "id": "common/number/mathSigns",
-        "name": "!= → ≠, <= → ≤, >= → ≥, ~= → ≅, +- → ±",
-        "isEnabled": true
-    },
-    {
-        "id": "common/number/times",
-        "name": "x → × (10 x 5 → 10×5)",
-        "isEnabled": true
-    },
-    {
-        "id": "common/other/delBOM",
-        "name": "Удаление символа BOM (Byte Order Mark)",
-        "isEnabled": true
-    },
-    {
-        "id": "common/other/repeatWord",
-        "name": "Удаление повтора слова",
-        "isEnabled": false
-    },
-    {
-        "id": "common/punctuation/apostrophe",
-        "name": "Расстановка правильного апострофа",
-        "isEnabled": true
-    },
-    {
-        "id": "common/punctuation/delDoublePunctuation",
-        "name": "Удаление двойной пунктуации",
-        "isEnabled": true
-    },
-    {
-        "id": "common/punctuation/hellip",
-        "name": "Замена трёх точек на многоточие",
-        "isEnabled": true
-    },
-    {
-        "id": "common/punctuation/quote",
-        "name": "Расстановка кавычек правильного вида",
-        "isEnabled": true
-    },
-    {
-        "id": "common/punctuation/quoteLink",
-        "name": "Вынос кавычек за пределы ссылки",
-        "isEnabled": true
-    },
-    {
-        "id": "common/space/afterPunctuation",
-        "name": "Пробел после знаков пунктуации",
-        "isEnabled": true
-    },
-    {
-        "id": "common/space/beforeBracket",
-        "name": "Пробел перед открывающей скобкой",
-        "isEnabled": true
-    },
-    {
-        "id": "common/space/bracket",
-        "name": "Удаление лишних пробелов после открывающей и перед закрывающей скобкой",
-        "isEnabled": true
-    },
-    {
-        "id": "common/space/delBeforePercent",
-        "name": "Удаление пробела перед %, ‰ и ‱",
-        "isEnabled": true
-    },
-    {
-        "id": "common/space/delBeforePunctuation",
-        "name": "Удаление пробелов перед знаками пунктуации",
-        "isEnabled": true
-    },
-    {
-        "id": "common/space/delLeadingBlanks",
-        "name": "Удаление пробелов в начале строки",
-        "isEnabled": false
-    },
-    {
-        "id": "common/space/delRepeatN",
-        "name": "Удаление повторяющихся переносов строки",
-        "isEnabled": true
-    },
-    {
-        "id": "common/space/delRepeatSpace",
-        "name": "Удаление повторяющихся пробелов между символами",
-        "isEnabled": true
-    },
-    {
-        "id": "common/space/delTrailingBlanks",
-        "name": "Удаление пробелов в конце строки",
-        "isEnabled": true
-    },
-    {
-        "id": "common/space/replaceTab",
-        "name": "Замена таба на 4 пробела",
-        "isEnabled": true
-    },
-    {
-        "id": "common/space/squareBracket",
-        "name": "Удаление лишних пробелов после открывающей и перед закрывающей квадратной скобкой",
-        "isEnabled": true
-    },
-    {
-        "id": "common/space/trimLeft",
-        "name": "Удаление пробелов и переносов строк в начале текста",
-        "isEnabled": true
-    },
-    {
-        "id": "common/space/trimRight",
-        "name": "Удаление пробелов и переносов строк в конце текста",
-        "isEnabled": true
-    },
-    {
-        "id": "common/symbols/arrow",
-        "name": "-> → →, <- → ←",
-        "isEnabled": true
-    },
-    {
-        "id": "common/symbols/cf",
-        "name": "Добавление ° к C и F",
-        "isEnabled": true
-    },
-    {
-        "id": "common/symbols/copy",
-        "name": "(c) → ©, (tm) → ™, (r) → ®",
-        "isEnabled": true
-    },
-    {
-        "id": "en-US/dash/main",
-        "name": "Замена дефиса на длинное тире",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/dash/centuries",
-        "name": "Замена дефиса на тире в веках",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/dash/daysMonth",
-        "name": "Тире между днями одного месяца",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/dash/de",
-        "name": "Дефис перед «де»",
-        "isEnabled": false
-    },
-    {
-        "id": "ru/dash/decade",
-        "name": "Тире в десятилетиях, 80—90-е гг.",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/dash/directSpeech",
-        "name": "Тире в прямой речи",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/dash/izpod",
-        "name": "Дефис между «из-под»",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/dash/izza",
-        "name": "Дефис между «из-за»",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/dash/ka",
-        "name": "Дефис перед «ка» и «кась»",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/dash/koe",
-        "name": "Дефис после «кое» и «кой»",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/dash/main",
-        "name": "Замена дефиса на тире",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/dash/month",
-        "name": "Тире между месяцами",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/dash/surname",
-        "name": "Сокращения с помощью тире",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/dash/taki",
-        "name": "Дефис между «верно-таки» и т. д.",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/dash/time",
-        "name": "Тире в интервалах времени",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/dash/to",
-        "name": "Дефис перед «то», «либо», «нибудь»",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/dash/weekday",
-        "name": "Тире между днями недели",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/dash/years",
-        "name": "Замена дефиса на тире в годах",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/date/fromISO",
-        "name": "Преобразование дат YYYY-MM-DD к виду DD.MM.YYYY",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/date/weekday",
-        "name": "2 Мая, Понедельник → 2 мая, понедельник",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/money/currency",
-        "name": "Символ валюты ($, €, ¥, Ұ, £ и ₤) после числа, $100 → 100 $",
-        "isEnabled": false
-    },
-    {
-        "id": "ru/money/ruble",
-        "name": "1 руб. → 1 ₽",
-        "isEnabled": false
-    },
-    {
-        "id": "ru/nbsp/abbr",
-        "name": "Нераз. пробел в сокращениях, например, в «т. д.»",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/nbsp/addr",
-        "name": "Расстановка нераз. пробела после «г.», «обл.», «ул.», «пр.», «кв.» и др.",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/nbsp/afterNumberSign",
-        "name": "Нераз. узкий пробел после №",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/nbsp/beforeParticle",
-        "name": "Нераз. пробел перед «ли», «ль», «же», «бы», «б»",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/nbsp/centuries",
-        "name": "Удаление пробелов и лишних точек в «вв.»",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/nbsp/dayMonth",
-        "name": "Нераз. пробел между числом и месяцем",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/nbsp/groupNumbers",
-        "name": "Замена пробела на нераз. узкий пробел в группах чисел",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/nbsp/initials",
-        "name": "Привязка инициалов к фамилии",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/nbsp/m",
-        "name": "м2 → м², м3 → м³ и нераз. пробел",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/nbsp/mln",
-        "name": "Неразр. пробел между числом и «тыс.», «млн», «млрд» и «трлн»",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/nbsp/ooo",
-        "name": "Нераз. пробел после OOO, ОАО, ЗАО, НИИ и ПБОЮЛ",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/nbsp/page",
-        "name": "Нераз. пробел после «стр.», «гл.», «рис.», «илл.»",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/nbsp/ps",
-        "name": "Нераз. пробел в P. S. и P. P. S.",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/nbsp/rubleKopek",
-        "name": "Нераз. пробел перед «руб.» и «коп.»",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/nbsp/see",
-        "name": "Нераз. пробел после сокращений «см.» и «им.»",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/nbsp/year",
-        "name": "Нераз. пробел после XXXX г. (2012 г.)",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/nbsp/years",
-        "name": "г.г. → гг. и нераз. пробел",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/number/comma",
-        "name": "Замена точки на запятую в числах",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/number/ordinals",
-        "name": "N-ый, -ой, -ая, -ое, -ые, -ым, -ом, -ых → N-й, -я, -е, -м, -х (25-й)",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/optalign/bracket",
-        "name": "для открывающей скобки",
-        "isEnabled": false
-    },
-    {
-        "id": "ru/optalign/comma",
-        "name": "для запятой",
-        "isEnabled": false
-    },
-    {
-        "id": "ru/optalign/quote",
-        "name": "для открывающей кавычки",
-        "isEnabled": false
-    },
-    {
-        "id": "ru/other/accent",
-        "name": "Замена заглавной буквы на строчную с добавлением ударения",
-        "isEnabled": false
-    },
-    {
-        "id": "ru/other/phone-number",
-        "name": "Форматирование телефонных номеров",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/punctuation/ano",
-        "name": "Расстановка запятых перед «а» и «но»",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/punctuation/exclamation",
-        "name": "!! → !",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/punctuation/exclamationQuestion",
-        "name": "!? → ?!",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/punctuation/hellipQuestion",
-        "name": "«?…» → «?..», «!…» → «!..», «…,» → «…»",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/space/afterHellip",
-        "name": "Пробел после «...», «!..» и «?..»",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/space/year",
-        "name": "Пробел между числом и словом «год»",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/symbols/NN",
-        "name": "№№ → №",
-        "isEnabled": true
-    },
-    {
-        "id": "ru/typo/switchingKeyboardLayout",
-        "name": "Замена латинских букв на русские. Опечатки, возникающие при переключении клавиатурной раскладки",
-        "isEnabled": true
+        "isEnabled": false, 
+        "id": "common/html/e-mail", 
+        "name": "\u0420\u0430\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u0441\u0441\u044b\u043b\u043e\u043a \u0434\u043b\u044f \u044d\u043b. \u043f\u043e\u0447\u0442\u044b"
+    }, 
+    {
+        "isEnabled": false, 
+        "id": "common/html/escape", 
+        "name": "\u042d\u043a\u0440\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 HTML"
+    }, 
+    {
+        "isEnabled": false, 
+        "id": "common/html/nbr", 
+        "name": "\u0417\u0430\u043c\u0435\u043d\u0430 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u0430 \u0441\u0442\u0440\u043e\u043a\u0438 \u043d\u0430 <br/>"
+    }, 
+    {
+        "isEnabled": false, 
+        "id": "common/html/p", 
+        "name": "\u0420\u0430\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u0430\u0431\u0437\u0430\u0446\u0435\u0432"
+    }, 
+    {
+        "isEnabled": false, 
+        "id": "common/html/processingAttrs", 
+        "name": "\u0422\u0438\u043f\u043e\u0433\u0440\u0430\u0444\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 HTML-\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u043e\u0432"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/html/quot", 
+        "name": "&\u2060quot; \u2192 \""
+    }, 
+    {
+        "isEnabled": false, 
+        "id": "common/html/stripTags", 
+        "name": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 HTML-\u0442\u0435\u0433\u043e\u0432"
+    }, 
+    {
+        "isEnabled": false, 
+        "id": "common/html/url", 
+        "name": "\u0420\u0430\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u0441\u0441\u044b\u043b\u043e\u043a"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/nbsp/afterNumber", 
+        "name": "\u041d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b \u043c\u0435\u0436\u0434\u0443 \u0447\u0438\u0441\u043b\u043e\u043c \u0438 \u0441\u043b\u043e\u0432\u043e\u043c"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/nbsp/afterParagraphMark", 
+        "name": "\u041d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b \u043f\u043e\u0441\u043b\u0435 \u00b6"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/nbsp/afterSectionMark", 
+        "name": "\u041d\u0435\u0440\u0430\u0437. \u0443\u0437\u043a\u0438\u0439 \u043f\u0440\u043e\u0431\u0435\u043b \u043f\u043e\u0441\u043b\u0435 \u00a7"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/nbsp/afterShortWord", 
+        "name": "\u041d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b \u043f\u043e\u0441\u043b\u0435 \u043a\u043e\u0440\u043e\u0442\u043a\u043e\u0433\u043e \u0441\u043b\u043e\u0432\u0430"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/nbsp/beforeShortLastNumber", 
+        "name": "\u041d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b \u043f\u0435\u0440\u0435\u0434 \u0447\u0438\u0441\u043b\u043e\u043c (\u043d\u0435 \u0431\u043e\u043b\u0435\u0435 2 \u0446\u0438\u0444\u0440) \u0432 \u043a\u043e\u043d\u0446\u0435 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u044f"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/nbsp/beforeShortLastWord", 
+        "name": "\u041d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b \u043f\u0435\u0440\u0435\u0434 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u043c \u043a\u043e\u0440\u043e\u0442\u043a\u0438\u043c \u0441\u043b\u043e\u0432\u043e\u043c \u0432 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u0438"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/nbsp/dpi", 
+        "name": "\u041d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b \u043f\u0435\u0440\u0435\u0434 lpi \u0438 dpi"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/nbsp/nowrap", 
+        "name": "\u0417\u0430\u043c\u0435\u043d\u044f\u0442\u044c \u043d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b \u043d\u0430 \u043e\u0431\u044b\u0447\u043d\u044b\u0439 \u043f\u0440\u043e\u0431\u0435\u043b \u0432 \u0442\u0435\u0433\u0430\u0445 nowrap \u0438 nobr"
+    }, 
+    {
+        "isEnabled": false, 
+        "id": "common/nbsp/replaceNbsp", 
+        "name": "\u0417\u0430\u043c\u0435\u043d\u0430 \u043d\u0435\u0440\u0430\u0437\u0440\u044b\u0432\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0431\u0435\u043b\u0430 \u043d\u0430 \u043e\u0431\u044b\u0447\u043d\u044b\u0439 \u043f\u0435\u0440\u0435\u0434 \u0442\u0438\u043f\u043e\u0433\u0440\u0430\u0444\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435\u043c"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/number/fraction", 
+        "name": "1/2 \u2192 \u00bd, 1/4 \u2192 \u00bc, 3/4 \u2192 \u00be"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/number/mathSigns", 
+        "name": "!= \u2192 \u2260, <= \u2192 \u2264, >= \u2192 \u2265, ~= \u2192 \u2245, +- \u2192 \u00b1"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/number/times", 
+        "name": "x \u2192 \u00d7 (10 x 5 \u2192 10\u00d75)"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/other/delBOM", 
+        "name": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u0441\u0438\u043c\u0432\u043e\u043b\u0430 BOM (Byte Order Mark)"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/other/repeatWord", 
+        "name": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u0432\u0442\u043e\u0440\u0430 \u0441\u043b\u043e\u0432\u0430"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/punctuation/apostrophe", 
+        "name": "\u0420\u0430\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e\u0433\u043e \u0430\u043f\u043e\u0441\u0442\u0440\u043e\u0444\u0430"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/punctuation/delDoublePunctuation", 
+        "name": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u0434\u0432\u043e\u0439\u043d\u043e\u0439 \u043f\u0443\u043d\u043a\u0442\u0443\u0430\u0446\u0438\u0438"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/punctuation/hellip", 
+        "name": "\u0417\u0430\u043c\u0435\u043d\u0430 \u0442\u0440\u0451\u0445 \u0442\u043e\u0447\u0435\u043a \u043d\u0430 \u043c\u043d\u043e\u0433\u043e\u0442\u043e\u0447\u0438\u0435"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/punctuation/quote", 
+        "name": "\u0420\u0430\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u043a\u0430\u0432\u044b\u0447\u0435\u043a \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u0438\u0434\u0430"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/punctuation/quoteLink", 
+        "name": "\u0412\u044b\u043d\u043e\u0441 \u043a\u0430\u0432\u044b\u0447\u0435\u043a \u0437\u0430 \u043f\u0440\u0435\u0434\u0435\u043b\u044b \u0441\u0441\u044b\u043b\u043a\u0438"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/space/afterPunctuation", 
+        "name": "\u041f\u0440\u043e\u0431\u0435\u043b \u043f\u043e\u0441\u043b\u0435 \u0437\u043d\u0430\u043a\u043e\u0432 \u043f\u0443\u043d\u043a\u0442\u0443\u0430\u0446\u0438\u0438"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/space/beforeBracket", 
+        "name": "\u041f\u0440\u043e\u0431\u0435\u043b \u043f\u0435\u0440\u0435\u0434 \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u044e\u0449\u0435\u0439 \u0441\u043a\u043e\u0431\u043a\u043e\u0439"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/space/bracket", 
+        "name": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u043b\u0438\u0448\u043d\u0438\u0445 \u043f\u0440\u043e\u0431\u0435\u043b\u043e\u0432 \u043f\u043e\u0441\u043b\u0435 \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u044e\u0449\u0435\u0439 \u0438 \u043f\u0435\u0440\u0435\u0434 \u0437\u0430\u043a\u0440\u044b\u0432\u0430\u044e\u0449\u0435\u0439 \u0441\u043a\u043e\u0431\u043a\u043e\u0439"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/space/delBeforePercent", 
+        "name": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u043f\u0440\u043e\u0431\u0435\u043b\u0430 \u043f\u0435\u0440\u0435\u0434 %, \u2030 \u0438 \u2031"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/space/delBeforePunctuation", 
+        "name": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u043f\u0440\u043e\u0431\u0435\u043b\u043e\u0432 \u043f\u0435\u0440\u0435\u0434 \u0437\u043d\u0430\u043a\u0430\u043c\u0438 \u043f\u0443\u043d\u043a\u0442\u0443\u0430\u0446\u0438\u0438"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/space/delLeadingBlanks", 
+        "name": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u043f\u0440\u043e\u0431\u0435\u043b\u043e\u0432 \u0432 \u043d\u0430\u0447\u0430\u043b\u0435 \u0441\u0442\u0440\u043e\u043a\u0438"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/space/delRepeatN", 
+        "name": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u0432\u0442\u043e\u0440\u044f\u044e\u0449\u0438\u0445\u0441\u044f \u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u0432 \u0441\u0442\u0440\u043e\u043a\u0438"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/space/delRepeatSpace", 
+        "name": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u0432\u0442\u043e\u0440\u044f\u044e\u0449\u0438\u0445\u0441\u044f \u043f\u0440\u043e\u0431\u0435\u043b\u043e\u0432 \u043c\u0435\u0436\u0434\u0443 \u0441\u0438\u043c\u0432\u043e\u043b\u0430\u043c\u0438"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/space/delTrailingBlanks", 
+        "name": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u043f\u0440\u043e\u0431\u0435\u043b\u043e\u0432 \u0432 \u043a\u043e\u043d\u0446\u0435 \u0441\u0442\u0440\u043e\u043a\u0438"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/space/replaceTab", 
+        "name": "\u0417\u0430\u043c\u0435\u043d\u0430 \u0442\u0430\u0431\u0430 \u043d\u0430 4 \u043f\u0440\u043e\u0431\u0435\u043b\u0430"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/space/squareBracket", 
+        "name": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u043b\u0438\u0448\u043d\u0438\u0445 \u043f\u0440\u043e\u0431\u0435\u043b\u043e\u0432 \u043f\u043e\u0441\u043b\u0435 \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u044e\u0449\u0435\u0439 \u0438 \u043f\u0435\u0440\u0435\u0434 \u0437\u0430\u043a\u0440\u044b\u0432\u0430\u044e\u0449\u0435\u0439 \u043a\u0432\u0430\u0434\u0440\u0430\u0442\u043d\u043e\u0439 \u0441\u043a\u043e\u0431\u043a\u043e\u0439"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/space/trimLeft", 
+        "name": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u043f\u0440\u043e\u0431\u0435\u043b\u043e\u0432 \u0438 \u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u0432 \u0441\u0442\u0440\u043e\u043a \u0432 \u043d\u0430\u0447\u0430\u043b\u0435 \u0442\u0435\u043a\u0441\u0442\u0430"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/space/trimRight", 
+        "name": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u043f\u0440\u043e\u0431\u0435\u043b\u043e\u0432 \u0438 \u043f\u0435\u0440\u0435\u043d\u043e\u0441\u043e\u0432 \u0441\u0442\u0440\u043e\u043a \u0432 \u043a\u043e\u043d\u0446\u0435 \u0442\u0435\u043a\u0441\u0442\u0430"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/symbols/arrow", 
+        "name": "-> \u2192 \u2192, <- \u2192 \u2190"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/symbols/cf", 
+        "name": "\u0414\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u00b0 \u043a C \u0438 F"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "common/symbols/copy", 
+        "name": "(c) \u2192 \u00a9, (tm) \u2192 \u2122, (r) \u2192 \u00ae"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "en-US/dash/main", 
+        "name": "\u0417\u0430\u043c\u0435\u043d\u0430 \u0434\u0435\u0444\u0438\u0441\u0430 \u043d\u0430 \u0434\u043b\u0438\u043d\u043d\u043e\u0435 \u0442\u0438\u0440\u0435"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/dash/centuries", 
+        "name": "\u0417\u0430\u043c\u0435\u043d\u0430 \u0434\u0435\u0444\u0438\u0441\u0430 \u043d\u0430 \u0442\u0438\u0440\u0435 \u0432 \u0432\u0435\u043a\u0430\u0445"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/dash/daysMonth", 
+        "name": "\u0422\u0438\u0440\u0435 \u043c\u0435\u0436\u0434\u0443 \u0434\u043d\u044f\u043c\u0438 \u043e\u0434\u043d\u043e\u0433\u043e \u043c\u0435\u0441\u044f\u0446\u0430"
+    }, 
+    {
+        "isEnabled": false, 
+        "id": "ru/dash/de", 
+        "name": "\u0414\u0435\u0444\u0438\u0441 \u043f\u0435\u0440\u0435\u0434 \u00ab\u0434\u0435\u00bb"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/dash/decade", 
+        "name": "\u0422\u0438\u0440\u0435 \u0432 \u0434\u0435\u0441\u044f\u0442\u0438\u043b\u0435\u0442\u0438\u044f\u0445, 80\u201490-\u0435 \u0433\u0433."
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/dash/directSpeech", 
+        "name": "\u0422\u0438\u0440\u0435 \u0432 \u043f\u0440\u044f\u043c\u043e\u0439 \u0440\u0435\u0447\u0438"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/dash/izpod", 
+        "name": "\u0414\u0435\u0444\u0438\u0441 \u043c\u0435\u0436\u0434\u0443 \u00ab\u0438\u0437-\u043f\u043e\u0434\u00bb"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/dash/izza", 
+        "name": "\u0414\u0435\u0444\u0438\u0441 \u043c\u0435\u0436\u0434\u0443 \u00ab\u0438\u0437-\u0437\u0430\u00bb"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/dash/ka", 
+        "name": "\u0414\u0435\u0444\u0438\u0441 \u043f\u0435\u0440\u0435\u0434 \u00ab\u043a\u0430\u00bb \u0438 \u00ab\u043a\u0430\u0441\u044c\u00bb"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/dash/koe", 
+        "name": "\u0414\u0435\u0444\u0438\u0441 \u043f\u043e\u0441\u043b\u0435 \u00ab\u043a\u043e\u0435\u00bb \u0438 \u00ab\u043a\u043e\u0439\u00bb"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/dash/main", 
+        "name": "\u0417\u0430\u043c\u0435\u043d\u0430 \u0434\u0435\u0444\u0438\u0441\u0430 \u043d\u0430 \u0442\u0438\u0440\u0435"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/dash/month", 
+        "name": "\u0422\u0438\u0440\u0435 \u043c\u0435\u0436\u0434\u0443 \u043c\u0435\u0441\u044f\u0446\u0430\u043c\u0438"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/dash/surname", 
+        "name": "\u0421\u043e\u043a\u0440\u0430\u0449\u0435\u043d\u0438\u044f \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0442\u0438\u0440\u0435"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/dash/taki", 
+        "name": "\u0414\u0435\u0444\u0438\u0441 \u043c\u0435\u0436\u0434\u0443 \u00ab\u0432\u0435\u0440\u043d\u043e-\u0442\u0430\u043a\u0438\u00bb \u0438 \u0442. \u0434."
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/dash/time", 
+        "name": "\u0422\u0438\u0440\u0435 \u0432 \u0438\u043d\u0442\u0435\u0440\u0432\u0430\u043b\u0430\u0445 \u0432\u0440\u0435\u043c\u0435\u043d\u0438"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/dash/to", 
+        "name": "\u0414\u0435\u0444\u0438\u0441 \u043f\u0435\u0440\u0435\u0434 \u00ab\u0442\u043e\u00bb, \u00ab\u043b\u0438\u0431\u043e\u00bb, \u00ab\u043d\u0438\u0431\u0443\u0434\u044c\u00bb"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/dash/weekday", 
+        "name": "\u0422\u0438\u0440\u0435 \u043c\u0435\u0436\u0434\u0443 \u0434\u043d\u044f\u043c\u0438 \u043d\u0435\u0434\u0435\u043b\u0438"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/dash/years", 
+        "name": "\u0417\u0430\u043c\u0435\u043d\u0430 \u0434\u0435\u0444\u0438\u0441\u0430 \u043d\u0430 \u0442\u0438\u0440\u0435 \u0432 \u0433\u043e\u0434\u0430\u0445"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/date/fromISO", 
+        "name": "\u041f\u0440\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u0434\u0430\u0442 YYYY-MM-DD \u043a \u0432\u0438\u0434\u0443 DD.MM.YYYY"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/date/weekday", 
+        "name": "2 \u041c\u0430\u044f, \u041f\u043e\u043d\u0435\u0434\u0435\u043b\u044c\u043d\u0438\u043a \u2192 2 \u043c\u0430\u044f, \u043f\u043e\u043d\u0435\u0434\u0435\u043b\u044c\u043d\u0438\u043a"
+    }, 
+    {
+        "isEnabled": false, 
+        "id": "ru/money/currency", 
+        "name": "\u0421\u0438\u043c\u0432\u043e\u043b \u0432\u0430\u043b\u044e\u0442\u044b ($, \u20ac, \u00a5, \u04b0, \u00a3 \u0438 \u20a4) \u043f\u043e\u0441\u043b\u0435 \u0447\u0438\u0441\u043b\u0430, $100 \u2192 100\u00a0$"
+    }, 
+    {
+        "isEnabled": false, 
+        "id": "ru/money/ruble", 
+        "name": "1 \u0440\u0443\u0431. \u2192 1 \u20bd"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/nbsp/abbr", 
+        "name": "\u041d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b \u0432 \u0441\u043e\u043a\u0440\u0430\u0449\u0435\u043d\u0438\u044f\u0445, \u043d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u0432 \u00ab\u0442.\u00a0\u0434.\u00bb"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/nbsp/addr", 
+        "name": "\u0420\u0430\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u043d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b\u0430 \u043f\u043e\u0441\u043b\u0435 \u00ab\u0433.\u00bb, \u00ab\u043e\u0431\u043b.\u00bb, \u00ab\u0443\u043b.\u00bb, \u00ab\u043f\u0440.\u00bb, \u00ab\u043a\u0432.\u00bb \u0438 \u0434\u0440."
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/nbsp/afterNumberSign", 
+        "name": "\u041d\u0435\u0440\u0430\u0437. \u0443\u0437\u043a\u0438\u0439 \u043f\u0440\u043e\u0431\u0435\u043b \u043f\u043e\u0441\u043b\u0435 \u2116"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/nbsp/beforeParticle", 
+        "name": "\u041d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b \u043f\u0435\u0440\u0435\u0434 \u00ab\u043b\u0438\u00bb, \u00ab\u043b\u044c\u00bb, \u00ab\u0436\u0435\u00bb, \u00ab\u0431\u044b\u00bb, \u00ab\u0431\u00bb"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/nbsp/centuries", 
+        "name": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u043f\u0440\u043e\u0431\u0435\u043b\u043e\u0432 \u0438 \u043b\u0438\u0448\u043d\u0438\u0445 \u0442\u043e\u0447\u0435\u043a \u0432 \u00ab\u0432\u0432.\u00bb"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/nbsp/dayMonth", 
+        "name": "\u041d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b \u043c\u0435\u0436\u0434\u0443 \u0447\u0438\u0441\u043b\u043e\u043c \u0438 \u043c\u0435\u0441\u044f\u0446\u0435\u043c"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/nbsp/groupNumbers", 
+        "name": "\u0417\u0430\u043c\u0435\u043d\u0430 \u043f\u0440\u043e\u0431\u0435\u043b\u0430 \u043d\u0430 \u043d\u0435\u0440\u0430\u0437. \u0443\u0437\u043a\u0438\u0439 \u043f\u0440\u043e\u0431\u0435\u043b \u0432 \u0433\u0440\u0443\u043f\u043f\u0430\u0445 \u0447\u0438\u0441\u0435\u043b"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/nbsp/initials", 
+        "name": "\u041f\u0440\u0438\u0432\u044f\u0437\u043a\u0430 \u0438\u043d\u0438\u0446\u0438\u0430\u043b\u043e\u0432 \u043a \u0444\u0430\u043c\u0438\u043b\u0438\u0438"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/nbsp/m", 
+        "name": "\u043c2 \u2192 \u043c\u00b2, \u043c3 \u2192 \u043c\u00b3 \u0438 \u043d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/nbsp/mln", 
+        "name": "\u041d\u0435\u0440\u0430\u0437\u0440. \u043f\u0440\u043e\u0431\u0435\u043b \u043c\u0435\u0436\u0434\u0443 \u0447\u0438\u0441\u043b\u043e\u043c \u0438 \u00ab\u0442\u044b\u0441.\u00bb, \u00ab\u043c\u043b\u043d\u00bb, \u00ab\u043c\u043b\u0440\u0434\u00bb \u0438 \u00ab\u0442\u0440\u043b\u043d\u00bb"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/nbsp/ooo", 
+        "name": "\u041d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b \u043f\u043e\u0441\u043b\u0435 OOO, \u041e\u0410\u041e, \u0417\u0410\u041e, \u041d\u0418\u0418 \u0438 \u041f\u0411\u041e\u042e\u041b"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/nbsp/page", 
+        "name": "\u041d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b \u043f\u043e\u0441\u043b\u0435 \u00ab\u0441\u0442\u0440.\u00bb, \u00ab\u0433\u043b.\u00bb, \u00ab\u0440\u0438\u0441.\u00bb, \u00ab\u0438\u043b\u043b.\u00bb"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/nbsp/ps", 
+        "name": "\u041d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b \u0432 P.\u00a0S. \u0438 P.\u00a0P.\u00a0S."
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/nbsp/rubleKopek", 
+        "name": "\u041d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b \u043f\u0435\u0440\u0435\u0434 \u00ab\u0440\u0443\u0431.\u00bb \u0438 \u00ab\u043a\u043e\u043f.\u00bb"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/nbsp/see", 
+        "name": "\u041d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b \u043f\u043e\u0441\u043b\u0435 \u0441\u043e\u043a\u0440\u0430\u0449\u0435\u043d\u0438\u0439 \u00ab\u0441\u043c.\u00bb \u0438 \u00ab\u0438\u043c.\u00bb"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/nbsp/year", 
+        "name": "\u041d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b \u043f\u043e\u0441\u043b\u0435 XXXX \u0433. (2012 \u0433.)"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/nbsp/years", 
+        "name": "\u0433.\u0433. \u2192 \u0433\u0433. \u0438 \u043d\u0435\u0440\u0430\u0437. \u043f\u0440\u043e\u0431\u0435\u043b"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/number/comma", 
+        "name": "\u0417\u0430\u043c\u0435\u043d\u0430 \u0442\u043e\u0447\u043a\u0438 \u043d\u0430 \u0437\u0430\u043f\u044f\u0442\u0443\u044e \u0432 \u0447\u0438\u0441\u043b\u0430\u0445"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/number/ordinals", 
+        "name": "N-\u044b\u0439, -\u043e\u0439, -\u0430\u044f, -\u043e\u0435, -\u044b\u0435, -\u044b\u043c, -\u043e\u043c, -\u044b\u0445 \u2192 N-\u0439, -\u044f, -\u0435, -\u043c, -\u0445 (25-\u0439)"
+    }, 
+    {
+        "isEnabled": false, 
+        "id": "ru/optalign/bracket", 
+        "name": "\u0434\u043b\u044f \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u044e\u0449\u0435\u0439 \u0441\u043a\u043e\u0431\u043a\u0438"
+    }, 
+    {
+        "isEnabled": false, 
+        "id": "ru/optalign/comma", 
+        "name": "\u0434\u043b\u044f \u0437\u0430\u043f\u044f\u0442\u043e\u0439"
+    }, 
+    {
+        "isEnabled": false, 
+        "id": "ru/optalign/quote", 
+        "name": "\u0434\u043b\u044f \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u044e\u0449\u0435\u0439 \u043a\u0430\u0432\u044b\u0447\u043a\u0438"
+    }, 
+    {
+        "isEnabled": false, 
+        "id": "ru/other/accent", 
+        "name": "\u0417\u0430\u043c\u0435\u043d\u0430 \u0437\u0430\u0433\u043b\u0430\u0432\u043d\u043e\u0439 \u0431\u0443\u043a\u0432\u044b \u043d\u0430 \u0441\u0442\u0440\u043e\u0447\u043d\u0443\u044e \u0441 \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435\u043c \u0443\u0434\u0430\u0440\u0435\u043d\u0438\u044f"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/other/phone-number", 
+        "name": "\u0424\u043e\u0440\u043c\u0430\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043d\u044b\u0445 \u043d\u043e\u043c\u0435\u0440\u043e\u0432"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/punctuation/ano", 
+        "name": "\u0420\u0430\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u0437\u0430\u043f\u044f\u0442\u044b\u0445 \u043f\u0435\u0440\u0435\u0434 \u00ab\u0430\u00bb \u0438 \u00ab\u043d\u043e\u00bb"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/punctuation/exclamation", 
+        "name": "!! \u2192 !"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/punctuation/exclamationQuestion", 
+        "name": "!? \u2192 ?!"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/punctuation/hellipQuestion", 
+        "name": "\u00ab?\u2026\u00bb \u2192 \u00ab?..\u00bb, \u00ab!\u2026\u00bb \u2192 \u00ab!..\u00bb, \u00ab\u2026,\u00bb \u2192 \u00ab\u2026\u00bb"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/space/afterHellip", 
+        "name": "\u041f\u0440\u043e\u0431\u0435\u043b \u043f\u043e\u0441\u043b\u0435 \u00ab...\u00bb, \u00ab!..\u00bb \u0438 \u00ab?..\u00bb"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/space/year", 
+        "name": "\u041f\u0440\u043e\u0431\u0435\u043b \u043c\u0435\u0436\u0434\u0443 \u0447\u0438\u0441\u043b\u043e\u043c \u0438 \u0441\u043b\u043e\u0432\u043e\u043c \u00ab\u0433\u043e\u0434\u00bb"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/symbols/NN", 
+        "name": "\u2116\u2116 \u2192 \u2116"
+    }, 
+    {
+        "isEnabled": true, 
+        "id": "ru/typo/switchingKeyboardLayout", 
+        "name": "\u0417\u0430\u043c\u0435\u043d\u0430 \u043b\u0430\u0442\u0438\u043d\u0441\u043a\u0438\u0445 \u0431\u0443\u043a\u0432 \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u0438\u0435. \u041e\u043f\u0435\u0447\u0430\u0442\u043a\u0438, \u0432\u043e\u0437\u043d\u0438\u043a\u0430\u044e\u0449\u0438\u0435 \u043f\u0440\u0438 \u043f\u0435\u0440\u0435\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0438 \u043a\u043b\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u043d\u043e\u0439 \u0440\u0430\u0441\u043a\u043b\u0430\u0434\u043a\u0438"
     }
 ]

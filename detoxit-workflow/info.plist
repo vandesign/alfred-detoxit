@@ -100,11 +100,11 @@
 	<key>createdby</key>
 	<string>vandesign &amp; tplk</string>
 	<key>description</key>
-	<string>Типограф для Alfred 4+</string>
+	<string>Типограф для Alfred</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Detoxit</string>
+	<string>Detoxit!</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -181,11 +181,11 @@ echo -n "{query}" \
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>65</integer>
+				<integer>24</integer>
 				<key>hotmod</key>
-				<integer>3276800</integer>
+				<integer>1179648</integer>
 				<key>hotstring</key>
-				<string>.</string>
+				<string>=</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -212,7 +212,7 @@ echo -n "{query}" \
 				<key>text</key>
 				<string>Детоксикация прошла успешно.</string>
 				<key>title</key>
-				<string>Detoxit</string>
+				<string>Detoxit!</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
@@ -257,7 +257,7 @@ echo -n "{query}" \
 				<key>subtext</key>
 				<string>Настройки</string>
 				<key>title</key>
-				<string>Detoxit</string>
+				<string>Detoxit!</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -322,7 +322,7 @@ with open('detoxit-config.json', 'wb') as OutJson:
 				<key>text</key>
 				<string>Правило изменено.</string>
 				<key>title</key>
-				<string>Detoxit</string>
+				<string>Detoxit!</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
@@ -377,32 +377,32 @@ with open('detoxit-setup.json', 'wb') as OutJson:
 			<key>colorindex</key>
 			<integer>8</integer>
 			<key>xpos</key>
-			<integer>790</integer>
+			<integer>585</integer>
 			<key>ypos</key>
-			<integer>230</integer>
+			<integer>205</integer>
 		</dict>
 		<key>0F0714D2-B678-4B6D-8A3F-1AB18E25E9D2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>80</integer>
+			<integer>55</integer>
 			<key>ypos</key>
-			<integer>365</integer>
+			<integer>325</integer>
 		</dict>
 		<key>441F5373-8EA2-4CBF-AF9F-E91D15206E78</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>4</integer>
 			<key>xpos</key>
-			<integer>540</integer>
+			<integer>395</integer>
 			<key>ypos</key>
-			<integer>365</integer>
+			<integer>325</integer>
 		</dict>
 		<key>77575CF3-A105-4121-9572-DB4AEB210FC4</key>
 		<dict>
 			<key>xpos</key>
-			<integer>535</integer>
+			<integer>390</integer>
 			<key>ypos</key>
-			<integer>35</integer>
+			<integer>30</integer>
 		</dict>
 		<key>AC849409-D01F-468B-862D-D980E753F243</key>
 		<dict>
@@ -411,9 +411,9 @@ with open('detoxit-setup.json', 'wb') as OutJson:
 Настрой свой хоткей.
 *</string>
 			<key>xpos</key>
-			<integer>75</integer>
+			<integer>55</integer>
 			<key>ypos</key>
-			<integer>35</integer>
+			<integer>30</integer>
 		</dict>
 		<key>BDFE34FC-3E3F-4F7B-B7AE-8EB92282284B</key>
 		<dict>
@@ -424,36 +424,36 @@ with open('detoxit-setup.json', 'wb') as OutJson:
 Удали, если любишь тишину.
 *</string>
 			<key>xpos</key>
-			<integer>790</integer>
+			<integer>585</integer>
 			<key>ypos</key>
-			<integer>35</integer>
+			<integer>30</integer>
 		</dict>
 		<key>DA4D9409-ABB1-4EE7-B62E-0DFBDB90E785</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>4</integer>
 			<key>xpos</key>
-			<integer>295</integer>
+			<integer>220</integer>
 			<key>ypos</key>
-			<integer>35</integer>
+			<integer>30</integer>
 		</dict>
 		<key>E6A65ADB-AB6B-410D-972D-A29FE8ED102F</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>4</integer>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>225</integer>
 			<key>ypos</key>
-			<integer>365</integer>
+			<integer>325</integer>
 		</dict>
 		<key>ECB4D86D-ACF5-44F7-A3EA-0A002ED92129</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>8</integer>
 			<key>xpos</key>
-			<integer>790</integer>
+			<integer>585</integer>
 			<key>ypos</key>
-			<integer>365</integer>
+			<integer>325</integer>
 		</dict>
 	</dict>
 	<key>variablesdontexport</key>
