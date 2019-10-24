@@ -49,4 +49,4 @@ Detoxit! работает на базе [Типограф на JavaScript](https
 - **Принимаются предложения!**
 
 ## Лицензия
-[![License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://ruedap.mit-license.org/2015)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](./LICENSE)
