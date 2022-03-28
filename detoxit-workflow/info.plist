@@ -118,7 +118,7 @@
 				<string>#!/bin/sh
 
 TYPOGRAF_CONFIG_PATH=detoxit-config.json
-TYPOGRAF_API_ENDPOINT='https://typograf.now.sh/api/process'
+TYPOGRAF_API_ENDPOINT='https://typograf.vercel.app/api/process'
 
 echo -n "{query}" \
   | python -c "import json, sys; print json.dumps({'text':sys.stdin.read(), 'options': json.load(open(sys.argv[1], 'r'))})" $TYPOGRAF_CONFIG_PATH \
